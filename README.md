@@ -43,23 +43,38 @@ cd pavo_efectivo
 flutter pub get
 ```
 
-3. **Configurar Firebase**
+3. **Instalar Firebase CLI globalmente**
 ```bash
-dart pub global run flutterfire_cli:configure
+npm install -g firebase-tools
 ```
-Esto generará el archivo `firebase_options.dart` necesario para la conexión.
 
-4. **Ejecutar en Web (Edge)**
+4. **Activar FlutterFire CLI**
+```bash
+dart pub global activate flutterfire_cli
+```
+
+5. **Configurar Firebase**
+```bash
+flutterfire configure --project=pavo-efectivo-app
+```
+Esto generará el archivo `firebase_options.dart` necesario para la conexión. Selecciona todas las plataformas cuando se te pida (android, ios, macos, web, windows).
+
+6. **Ejecutar en Web (Edge)**
 ```bash
 flutter run -d edge
 ```
 
-5. **Ejecutar en Windows (Desktop)**
+6. **Ejecutar en Web (Edge)**
+```bash
+flutter run -d edge
+```
+
+7. **Ejecutar en Windows (Desktop)**
 ```bash
 flutter run -d windows
 ```
 
-6. **Ejecutar en Android/iOS**
+8. **Ejecutar en Android/iOS**
 ```bash
 flutter run -d android  # o -d ios
 ```
