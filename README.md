@@ -25,6 +25,7 @@ Pavo Efectivo es una aplicación móvil y web que facilita la gestión de finanz
 ### Requisitos previos
 - Flutter 3.38.0 o superior
 - Dart 3.10.0 o superior
+- Fire CLI 14. 19. 0  (junto a sus variables de entorno)
 - Visual Studio Build Tools 2019 (para Windows)
 - Microsoft Edge (para ejecutar en web)
 - Git
