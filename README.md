@@ -230,3 +230,20 @@ flutter clean
 **Plataforma Web (Edge):** ✅ Funcionando correctamente
 
 **Plataforma Windows (Desktop):** ⚠️ Requiere resolver dependencias de Firebase en versiones más recientes
+
+
+## IU de PavoEfectivo
+
+A continuaci�n se presentan las interfaces de usuario de la aplicaci�n Pavo Efectivo:
+
+### Pantalla de Login
+![Login](01%20-%20Documentación/images_IU/login.png)
+
+### Pantalla de Inicio (Home)
+![Home](01%20-%20Documentación/images_IU/home.png)
+
+### Pantalla de Transferencias
+![Transferencias](01%20-%20Documentación/images_IU/transferir.png)
+
+### Pantalla de Pago de Servicios
+![Pago de Servicios](01%20-%20Documentación/images_IU/pagar_servicios.png)
