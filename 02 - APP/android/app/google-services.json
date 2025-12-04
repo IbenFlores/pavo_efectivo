@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "253294043340",
+    "project_id": "pavo-efectivo-app",
+    "storage_bucket": "pavo-efectivo-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253294043340:android:7595ed2dfeba78e722a269",
+        "android_client_info": {
+          "package_name": "com.example.pavo_efectivo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd6g_Ut8MhXwFZFOiaFNswYqiH_TTZEio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
