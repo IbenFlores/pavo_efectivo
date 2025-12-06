@@ -43,23 +43,38 @@ cd pavo_efectivo
 flutter pub get
 ```
 
-3. **Configurar Firebase**
+3. **Instalar Firebase CLI globalmente**
 ```bash
-dart pub global run flutterfire_cli:configure
+npm install -g firebase-tools
 ```
-Esto generará el archivo `firebase_options.dart` necesario para la conexión.
 
-4. **Ejecutar en Web (Edge)**
+4. **Activar FlutterFire CLI**
+```bash
+dart pub global activate flutterfire_cli
+```
+
+5. **Configurar Firebase**
+```bash
+flutterfire configure --project=pavo-efectivo-app
+```
+Esto generará el archivo `firebase_options.dart` necesario para la conexión. Selecciona todas las plataformas cuando se te pida (android, ios, macos, web, windows).
+
+6. **Ejecutar en Web (Edge)**
 ```bash
 flutter run -d edge
 ```
 
-5. **Ejecutar en Windows (Desktop)**
+6. **Ejecutar en Web (Edge)**
+```bash
+flutter run -d edge
+```
+
+7. **Ejecutar en Windows (Desktop)**
 ```bash
 flutter run -d windows
 ```
 
-6. **Ejecutar en Android/iOS**
+8. **Ejecutar en Android/iOS**
 ```bash
 flutter run -d android  # o -d ios
 ```
@@ -215,3 +230,20 @@ flutter clean
 **Plataforma Web (Edge):** ✅ Funcionando correctamente
 
 **Plataforma Windows (Desktop):** ⚠️ Requiere resolver dependencias de Firebase en versiones más recientes
+
+
+## IU de PavoEfectivo
+
+A continuaci�n se presentan las interfaces de usuario de la aplicaci�n Pavo Efectivo:
+
+### Pantalla de Login
+![Login](01%20-%20Documentación/images_IU/login.png)
+
+### Pantalla de Inicio (Home)
+![Home](01%20-%20Documentación/images_IU/home.png)
+
+### Pantalla de Transferencias
+![Transferencias](01%20-%20Documentación/images_IU/transferir.png)
+
+### Pantalla de Pago de Servicios
+![Pago de Servicios](01%20-%20Documentación/images_IU/pagar_servicios.png)
